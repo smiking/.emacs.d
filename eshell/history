@@ -2,11 +2,32 @@ nsietar
 ls
 ..
 git init
-	ls
+ls
 ls
 ls -l
 ls -a
 git status
 touch .gitignore
 q
+exit
+git statur
+git status
+git add .
+The file will have its original line endings in your working directory.
+cd themes
+git status
+	new file:   solarized/solarized-zenburn-theme.el
+ls
+cd solarized
+ls
+ll
+ls -a
+..
+..
+git add .
+git comment -m "init"
+git commit -m "init"
+ create mode 100644 .gitignore
+ls
+git status
 exit
