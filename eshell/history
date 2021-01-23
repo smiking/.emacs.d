@@ -1,0 +1,12 @@
+nsietar
+ls
+..
+git init
+	ls
+ls
+ls -l
+ls -a
+git status
+touch .gitignore
+q
+exit
