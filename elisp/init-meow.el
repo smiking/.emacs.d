@@ -234,5 +234,7 @@
 (global-set-key (kbd "M-e") 'next-line)
 (global-set-key (kbd "<f2>") 'open-init-dir)
 (global-set-key (kbd "<f3>") 'open-org-dir)
+(global-set-key (kbd "M-y") 'yank) ;; swap M-y and C-y
+(global-set-key (kbd "C-y") 'yank-pop)
 
 (provide 'init-meow)

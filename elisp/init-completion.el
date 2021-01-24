@@ -22,9 +22,10 @@
   :config
   (let ((inhibit-message t)) (yas-reload-all))
   (setq yas-snippet-dirs
-      '("~/.emacs.d/snippets"                 ;; personal snippets
-        ))
+      '("~/.emacs.d/snippets"))                 ;; personal snippets
+
   :init
+  (yas-global-mode t)
   (add-hook 'prog-mode-hook #'yas-minor-mode))
 
 (use-package yasnippet-snippets

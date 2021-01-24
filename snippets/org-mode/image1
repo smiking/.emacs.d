@@ -3,6 +3,6 @@
 # key: <img
 # --
 #+attr_html: :width 400px
-#+attr_latex: :width 400p
+#+attr_latex: :width 400px
 #+caption: ${1:caption of the image}
 ${2:path}$0
