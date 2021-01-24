@@ -9,7 +9,7 @@
 (require 'init-package)
 
 
-(load-theme 'solarized-light t)
+(load-theme 'solarized-dark t)
 (set-frame-parameter nil 'alpha '(90 . 100))
 
 (require 'init-custom)
@@ -25,6 +25,8 @@
 (require 'init-util)
 
 (require 'init-org)
+
+(require 'init-git)
 
 (require 'init-window)
 
