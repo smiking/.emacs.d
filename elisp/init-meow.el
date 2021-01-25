@@ -142,7 +142,7 @@
    '("D" . meow-kill-whole-line)
    '("e" . next-line)
    '("E" . next-5-line)
-   '("M-e" . scroll-up-command)
+   '("M-e" . scroll-up)
    '("f" . meow-search)
    '("F" . pass)
    '("g" . pass)
@@ -181,7 +181,7 @@
    '("T" . meow-till-expand)
    '("u" . previous-line)
    '("U" . previous-5-line)
-   '("M-u" . scroll-down-command)
+   '("M-u" . scroll-down)
    '("v" . set-mark-command)
    '("V" . meow-line)
    '("w" . meow-next-word)
@@ -236,5 +236,7 @@
 (global-set-key (kbd "<f3>") 'open-org-dir)
 (global-set-key (kbd "M-y") 'yank) ;; swap M-y and C-y
 (global-set-key (kbd "C-y") 'yank-pop)
+(global-set-key (kbd "M-l") 'undo-only)
+(global-set-key (kbd "M-L") 'undo-tree-redo)
 
 (provide 'init-meow)

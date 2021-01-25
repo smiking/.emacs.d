@@ -1,8 +1,6 @@
 # -*- mode: snippet -*-
 # name: image1
-# key: <img
+# key: ii
 # --
 #+attr_html: :width 400px
-#+attr_latex: :width 400px
-#+caption: ${1:caption of the image}
-${2:path}$0
+$0

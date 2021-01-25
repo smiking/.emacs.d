@@ -1,6 +1,8 @@
 ;;; -*- lexical-binding: t -*-
 
 (use-package ace-window
+  :ensure t
+  :defer nil
   :commands
   (ace-swap-window ace-window)
   :custom
@@ -13,6 +15,5 @@
 (global-set-key (kbd "M-<right>") 'enlarge-window-horizontally)
 (global-set-key (kbd "M-<down>") 'shrink-window)
 (global-set-key (kbd "M-<up>") 'enlarge-window)
-
 
 (provide 'init-window)
