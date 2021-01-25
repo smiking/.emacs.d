@@ -1,8 +1,10 @@
 *~
-auto-save-list
-elpa
-.last-package-update-day
 places
 recentf
-eshell
-backups
+.last-package-update-day
+auto-save-list/
+elpa/
+eshell/
+backups/
+server/
+transient/

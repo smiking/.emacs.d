@@ -14,7 +14,7 @@
   ;; Show git info in dired
   (use-package dired-git-info
     :bind (:map dired-mode-map
-           ("g" . dired-git-info-mode)))
+           ("v" . dired-git-info-mode)))
 
  ;; Shows icons
   ;; (use-package all-the-icons-dired

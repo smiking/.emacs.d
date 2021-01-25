@@ -229,13 +229,22 @@
   (dired "C:/Users/hp/Desktop/文件整合/org"))
 
 (global-set-key (kbd "M-i") 'forward-char)
+(global-set-key (kbd "M-I") 'end-of-line)
 (global-set-key (kbd "M-n") 'backward-char)
+(global-set-key (kbd "M-N") 'beginning-of-line)
 (global-set-key (kbd "M-u") 'previous-line)
+(global-set-key (kbd "M-U") 'previous-5-line)
 (global-set-key (kbd "M-e") 'next-line)
+(global-set-key (kbd "M-E") 'next-5-line)
+(global-set-key (kbd "M-w") 'forward-word)
+(global-set-key (kbd "M-W") 'backward-word)
+(global-set-key (kbd "M-q") 'keyboard-quit)
+
 (global-set-key (kbd "<f2>") 'open-init-dir)
 (global-set-key (kbd "<f3>") 'open-org-dir)
-(global-set-key (kbd "M-y") 'yank) ;; swap M-y and C-y
-(global-set-key (kbd "C-y") 'yank-pop)
+(global-set-key (kbd "M-y") 'kill-ring-save) ;; swap M-y and C-y
+(global-set-key (kbd "M-P") 'yank-pop)
+(global-set-key (kbd "M-p") 'yank) ;; swap M-y and C-y
 (global-set-key (kbd "M-l") 'undo-only)
 (global-set-key (kbd "M-L") 'undo-tree-redo)
 
