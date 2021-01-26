@@ -7,6 +7,7 @@
       org-fontify-done-headline t
       org-hide-leading-stars t
       org-odd-levels-only nil
+      org-image-actual-width nil
       org-pretty-entities t)
 
 

@@ -239,6 +239,7 @@
 (global-set-key (kbd "M-w") 'forward-word)
 (global-set-key (kbd "M-W") 'backward-word)
 (global-set-key (kbd "M-q") 'keyboard-quit)
+(global-set-key (kbd "M-v") 'set-mark-command)
 
 (global-set-key (kbd "<f2>") 'open-init-dir)
 (global-set-key (kbd "<f3>") 'open-org-dir)
