@@ -16,4 +16,9 @@
 (global-set-key (kbd "M-<down>") 'shrink-window)
 (global-set-key (kbd "M-<up>") 'enlarge-window)
 
+
+(use-package popwin
+  :init
+  (popwin-mode 1))
+
 (provide 'init-window)

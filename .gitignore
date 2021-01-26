@@ -2,6 +2,7 @@
 places
 recentf
 bookmarks
+.youdao
 .last-package-update-day
 auto-save-list/
 elpa/
@@ -9,3 +10,4 @@ eshell/
 backups/
 server/
 transient/
+url/

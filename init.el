@@ -22,11 +22,12 @@
 
 (require 'init-which-key.el)
 
+(require 'init-window)
+
 (require 'init-util)
 
 (require 'init-org)
 
 (require 'init-git)
 
-(require 'init-window)
 

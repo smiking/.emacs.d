@@ -93,6 +93,7 @@
    '("e" . ibuffer)
    '("f" . find-file)
    '("d" . dired)
+   '("t" . youdao-dictionary-search-at-point-tooltip)
    '("r" . meow-r-command)
    '("rb" . eval-buffer)
    '("rl" . eval-last-sexp)
