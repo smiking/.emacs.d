@@ -54,8 +54,9 @@
   (message "not define"))
 
 
-(define-prefix-command 'meow-r-command)
+(define-prefix-command 'meow-leader-r-command)
 (define-prefix-command 'meow-s-command)
+(define-prefix-command 'meow-leader-b-command)
 
 (defun meow-setup ()
   (setq meow-cheatsheet-layout meow-cheatsheet-layout-colemak)
@@ -94,9 +95,14 @@
    '("f" . find-file)
    '("d" . dired)
    '("t" . youdao-dictionary-search-at-point-tooltip)
-   '("r" . meow-r-command)
+   '("r" . meow-leader-r-command)
    '("rb" . eval-buffer)
    '("rl" . eval-last-sexp)
+   '("b" . meow-leader-b-command)
+   '("bs" . bookmark-set)
+   '("bl" . bookmark-bmenu-list)
+   '("bj" . bookmark-jump)
+   '("bk" . bookmark-delete)
         
    '("1" . meow-digit-argument)
    '("2" . meow-digit-argument)
@@ -220,15 +226,6 @@
    (keypad . "Ꮚ'D'Ꮚ")
    (motion . "Ꮚ-M-Ꮚ")))
 
-(defun open-init-dir()
-  (interactive)
-  (dired "~/.emacs.d/elisp"))
-
-
-(defun open-org-dir()
-  (interactive)
-  (dired "C:/Users/hp/Desktop/文件整合/org"))
-
 (global-set-key (kbd "M-i") 'forward-char)
 (global-set-key (kbd "M-I") 'end-of-line)
 (global-set-key (kbd "M-n") 'backward-char)
@@ -242,8 +239,6 @@
 (global-set-key (kbd "M-q") 'keyboard-quit)
 (global-set-key (kbd "M-v") 'set-mark-command)
 
-(global-set-key (kbd "<f2>") 'open-init-dir)
-(global-set-key (kbd "<f3>") 'open-org-dir)
 (global-set-key (kbd "M-y") 'kill-ring-save) ;; swap M-y and C-y
 (global-set-key (kbd "M-P") 'yank-pop)
 (global-set-key (kbd "M-p") 'yank) ;; swap M-y and C-y
