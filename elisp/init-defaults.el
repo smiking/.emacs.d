@@ -67,7 +67,8 @@
 
 (add-to-list 'default-frame-alist '(width . 115))
 (add-to-list 'default-frame-alist '(height . 33))
-(add-to-list 'default-frame-alist '(font . "-outline-Hack-normal-normal-normal-mono-20-*-*-*-c-*-iso8859-1"))
+;; (add-to-list 'default-frame-alist '(font . "-outline-Hack-normal-normal-normal-mono-20-*-*-*-c-*-iso8859-1"))
 
+(add-to-list 'default-frame-alist '(font . "-outline-Hack Nerd Font Mono-normal-normal-normal-mono-20-*-*-*-c-*-fontset-auto1"))
 
 (provide 'init-defaults)

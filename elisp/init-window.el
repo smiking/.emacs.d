@@ -21,4 +21,18 @@
   :init
   (popwin-mode 1))
 
+;; (use-package all-the-icons
+  ;; :config)
+
+(use-package doom-modeline
+  :custom
+  ;; Don't compact font caches during GC. Windows Laggy Issue
+  (inhibit-compacting-font-caches t)
+  (doom-modeline-minor-modes t)
+  (doom-modeline-icon nil)
+  (doom-modeline-major-mode-color-icon t)
+  (doom-modeline-height 15)
+  :config
+  (doom-modeline-mode))
+
 (provide 'init-window)
