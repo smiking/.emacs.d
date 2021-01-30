@@ -22,6 +22,6 @@
                            ("19:30" . flucui-dark)))
   (circadian-setup))
 
-(set-frame-parameter nil 'alpha '(90 . 100))
+(set-frame-parameter nil 'alpha '(98 . 100))
 
 (provide 'init-themes)
