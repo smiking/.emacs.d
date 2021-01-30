@@ -74,6 +74,7 @@
 (cond
  ((string-equal (downcase system-name) "king")
   (progn (add-to-list 'default-frame-alist '(font . "-outline-Hack Nerd Font Mono-normal-normal-normal-mono-20-*-*-*-c-*-fontset-auto1"))))
- (t (progn (message "fonts"))))
+ (t (progn (add-to-list 'default-frame-alist '(font . "-ontline-Hack Nerd Font Mono-normal-normal-normal-*-20-*-*-*-m-0-iso10646-1")))))
+
 
 (provide 'init-defaults)

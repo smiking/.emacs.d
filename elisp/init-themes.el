@@ -19,7 +19,7 @@
   :ensure t
   :config
   (setq circadian-themes '(("8:00" . flucui-light)
-                           ("19:30" . flucui-dark)))
+                           ("19:30" . nord)))
   (circadian-setup))
 
 (set-frame-parameter nil 'alpha '(98 . 100))
