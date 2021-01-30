@@ -1,14 +1,14 @@
 ;;; themes.el --- -*- lexical-binding: t -*-
 
-(add-to-list 'custom-theme-load-path "themes/solarized")
-(add-to-list 'custom-theme-load-path "themes/flucui")
-(add-to-list 'custom-theme-load-path "themes/")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/solarized")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/flucui")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 (use-package nord-theme :ensure :defer)
 
 ;; (require 'solarized-light-theme)
 ;; (require 'solarized-dark-theme)
-(require 'flucui-dark-theme)
-(require 'flucui-light-theme)
+;; (require 'flucui-dark-theme)
+;; (require 'flucui-light-theme)
 
 
 ;; (load-theme 'flucui-light t)
