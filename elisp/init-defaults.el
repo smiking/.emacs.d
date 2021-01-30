@@ -66,13 +66,14 @@
 ;; (toggle-frame-fullscreen) ; Set fullscreen
 (setq inhibit-splash-screen t) ; Close the startup screen
 
-;; Transparent Background
-(set-frame-parameter nil 'alpha '(90 . 100))
-
+;; set frame size
 (add-to-list 'default-frame-alist '(width . 115))
 (add-to-list 'default-frame-alist '(height . 33))
+;; font
 ;; (add-to-list 'default-frame-alist '(font . "-outline-Hack-normal-normal-normal-mono-20-*-*-*-c-*-iso8859-1"))
-
-(add-to-list 'default-frame-alist '(font . "-outline-Hack Nerd Font Mono-normal-normal-normal-mono-20-*-*-*-c-*-fontset-auto1"))
+(cond
+ ((string-equal (downcase system-name) "king")
+  (progn (add-to-list 'default-frame-alist '(font . "-outline-Hack Nerd Font Mono-normal-normal-normal-mono-20-*-*-*-c-*-fontset-auto1"))))
+ (t (progn (message "fonts"))))
 
 (provide 'init-defaults)
