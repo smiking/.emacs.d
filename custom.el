@@ -5,8 +5,12 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(auto-package-update-delete-old-versions t nil nil "Customized with use-package auto-package-update")
+ '(auto-package-update-hide-results t nil nil "Customized with use-package auto-package-update")
+ '(auto-package-update-interval 7 nil nil "Customized with use-package auto-package-update")
+ '(auto-package-update-prompt-before-update t nil nil "Customized with use-package auto-package-update")
  '(custom-safe-themes
-   '("00445e6f15d31e9afaa23ed0d765850e9cd5e929be5e8e63b114a3346236c44c" default)))
+   '("37768a79b479684b0756dec7c0fc7652082910c37d8863c35b702db3f16000f8" default)))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

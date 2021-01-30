@@ -27,6 +27,10 @@
 (show-paren-mode t)
 ;; (electric-pair-mode t)
 
+;; auto goto the place
+(save-place-mode t)
+;; (recentf-mode t)
+
 
 ;; Vertical Scroll
 (setq scroll-step 1)

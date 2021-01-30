@@ -11,14 +11,7 @@
 
 (add-to-list 'load-path (expand-file-name "elisp" user-emacs-directory))
 
-(save-place-mode t)
-;; (recentf-mode t)
-
-
 (require 'init-defaults)
-
-(add-to-list 'load-path (expand-file-name "themes/solarized" user-emacs-directory))
-
 
 ;; (require 'init-laf)
 

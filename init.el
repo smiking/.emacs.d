@@ -8,11 +8,9 @@
 
 (require 'init-package)
 
-
-(load-theme 'solarized-dark t)
-(set-frame-parameter nil 'alpha '(90 . 100))
-
 (require 'init-custom)
+
+(require 'init-themes)
 
 (require 'init-dired)
 
